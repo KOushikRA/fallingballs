@@ -46,6 +46,16 @@ function setup(){
     World.add(world,particle4);
     particle5 =Bodies.circle(230,10,10,particle_options);
     World.add(world,particle5);
+    particle6 =Bodies.circle(230,10,10,particle_options);
+    World.add(world,particle6);
+    particle7 =Bodies.circle(230,10,10,particle_options);
+    World.add(world,particle7);
+    particle8 =Bodies.circle(230,10,10,particle_options);
+    World.add(world,particle8);
+    particle9 =Bodies.circle(230,10,10,particle_options);
+    World.add(world,particle9);
+    particle10 =Bodies.circle(230,10,10,particle_options);
+    World.add(world,particle10);
 
     var rotator_options={
       // isStatic=true
@@ -94,6 +104,13 @@ function draw(){
   ellipse(particle3.position.x,particle3.position.y,10);
   ellipse(particle4.position.x,particle4.position.y,10);
   ellipse(particle5.position.x,particle5.position.y,10);
+  ellipse(particle6.position.x,particle6.position.y,10);
+  ellipse(particle7.position.x,particle7.position.y,10);  
+  ellipse(particle8.position.x,particle8.position.y,10);
+  ellipse(particle9.position.x,particle9.position.y,10);
+  ellipse(particle10.position.x,particle10.position.y,10);
+
+
 
   //created shape for all the rotators
   Matter.Body.rotate(rotator1,angle1)
